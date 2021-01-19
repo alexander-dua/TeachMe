@@ -1,7 +1,8 @@
 baseURL = "https://example.com"
-title = "Notepadium"
+title = "TeachMe"
 theme = "hugo-notepadium"
-copyright = "©2020 Notepadium."
+themesDir = "./themes"
+copyright = "©2021 Alexander Dua"
 
 languageCode = "en"  # for the RSS generation
 defaultContentLanguage = "en"
@@ -35,7 +36,7 @@ slogan = "100% JavaScript-free"
 css = ["css/fonts.css"]
 
 [params.comments]
-enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.share]
 enable = false  # En/Disable share globally, default: false. You can always enable share on per page.
