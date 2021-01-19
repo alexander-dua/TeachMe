@@ -3,6 +3,7 @@ title = "TeachMe"
 theme = "hugo-notepadium"
 themesDir = "./themes"
 copyright = "©2021 Alexander Dua"
+ignoreErrors = ["error-remote-getjson"]
 
 languageCode = "en"  # for the RSS generation
 defaultContentLanguage = "en"
